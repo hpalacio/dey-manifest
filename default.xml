@@ -9,7 +9,7 @@
   <remote name="qt5"   fetch="https://github.com/meta-qt5"/>
   <remote name="swu"   fetch="https://github.com/sbabic"/>
   <remote name="oe"    fetch="https://git.openembedded.org"/>
-  <remote name="yocto" fetch="https://git.yoctoproject.org"/>
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git"/>
 
   <project name="meta-digi.git" path="sources/meta-digi" remote="digi" revision="zeus">
     <copyfile src="sdk/mkproject.sh" dest="mkproject.sh"/>
